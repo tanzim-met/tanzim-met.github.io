@@ -1,0 +1,42 @@
+body{
+  background-color: #ededed;
+}
+.list-group-item{
+  padding: 5px;
+}
+.card{
+  border-radius: 0;
+}
+.card-body{
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.card-deck .card{
+  border: none;
+  padding: 5px;
+  position: relative;
+  margin-top: 20px;
+}
+.card-deck .card:after{
+  content: '';
+  height: 58%;
+  width: 1px;
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  background-color: #bdb2b2;
+}
+.card-deck .card:nth-child(3):after{
+  background-color: transparent;
+}
+.top-nav .nav-link{
+  font-size: .8rem;
+  font-weight: 600;
+}
+.top-nav .nav-link:focus,
+.top-nav .nav-link:hover,
+.top-nav .nav-link.active{
+  background-color: white;
+  width: 100%;
+  color: green !important;
+}
