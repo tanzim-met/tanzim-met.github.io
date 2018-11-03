@@ -1,13 +1,53 @@
 @font-face {
-  font-family: 'PlayfairDisplay-Regular';
+  font-family: 'Playfair Display';
   src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 body{
   background-color: #f2f2f2;
-  font-family:'PlayfairDisplay-Regular';
+  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Playfair Display', serif; */
 }
+#headerWithMenu{
+  background-color:#0b9444;
+}
+#headerWithLogo{
+  background-color:#ffffff;
+}
+.header-menu-text{
+  margin-top: 35px;
+  font-size:.7em;
+  line-height:0;
+}
+.header-menu-text p:nth-child(2){
+  font-weight:700;
+}
+.top-nav .nav-item{
+  margin-left: 5px;
+}
+.top-nav .nav-link{
+  font-size: 1em;
+  font-weight: 500;
+}
+.top-nav .nav-link:focus,
+.top-nav .nav-link:hover,
+.top-nav .nav-link.active{
+  background-color: white;
+  width: 100%;
+  color: #0b9444 !important;
+  box-shadow: 0px 1px 4px 2px #5d5a5a99;
+  transition: background-color 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+}
+
 .list-group-item{
   padding: 5px;
 }
@@ -36,28 +76,19 @@ body{
 .card-deck .card:nth-child(3):after{
   background-color: transparent;
 }
-.top-nav .nav-link{
-  font-size: .8rem;
-  font-weight: 600;
-}
-.top-nav .nav-link:focus,
-.top-nav .nav-link:hover,
-.top-nav .nav-link.active{
-  background-color: white;
-  width: 100%;
-  color: green !important;
-}
+
 
 .search-button input {
   width: 65%;
   padding:5px 0px;
-	font-family: FontAwesome, sans-serif;
+	font-family: 'Poppins', FontAwesome, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
   border: none;
   outline: none;
   color: black;
+  font-size: .8em;
 }
 .search-button input:focus,
 .search-button input:hover{
@@ -66,7 +97,8 @@ body{
 }
 .search-button input::placeholder{
   color:black;
-  font-family:'PlayfairDisplay-Regular',FontAwesome, sans-serif;
+  font-family: 'Poppins', FontAwesome, sans-serif;
+  font-size: 1em;
 }
 .subscribe-banner{
   background: url(../images/subscription.png) no-repeat center center ;
