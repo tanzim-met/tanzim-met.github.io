@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 body{
   background-color: #f2f2f2;
+  font-family:'PlayfairDisplay-Regular';
 }
 .list-group-item{
   padding: 5px;
@@ -59,6 +66,7 @@ body{
 }
 .search-button input::placeholder{
   color:black;
+  font-family:'PlayfairDisplay-Regular',FontAwesome, sans-serif;
 }
 .subscribe-banner{
   background: url(../images/subscription.png) no-repeat center center ;
@@ -71,15 +79,15 @@ body{
 .highlights{
   position: relative;
 }
-/* .highlights-block:after{
-  content: '';
-  height: 1px;
-  width: 100%;
-  position: absolute;
-  bottom: 0px;
-  top: 200px;
-  background-color: red;
-} */
 .highlights-block{
   border-bottom: 1px solid #a1a1a1;
+}
+.footer p,
+.footer a,
+.footer .follow-us,
+.footer .follow-us h4,
+.footer .follow-us span,
+.footer .follow-us i,
+.footer-copyright p{
+  color: #555556;
 }
