@@ -60,3 +60,26 @@ body{
 .search-button input::placeholder{
   color:black;
 }
+.subscribe-banner{
+  background: url(../images/subscription.png) no-repeat center center ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  padding: 18% 0;
+}
+.highlights{
+  position: relative;
+}
+/* .highlights-block:after{
+  content: '';
+  height: 1px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  top: 200px;
+  background-color: red;
+} */
+.highlights-block{
+  border-bottom: 1px solid #a1a1a1;
+}
