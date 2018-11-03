@@ -15,16 +15,31 @@ body{
   font-family: 'Poppins', sans-serif;
   /* font-family: 'Playfair Display', serif; */
 }
+
+.post-type{
+  color: #0b9444;
+  font-size: .8rem;
+  margin: 5px 0;
+}
+.title{
+  font-size: 1rem;
+  font-family: 'Playfair Display', serif;
+}
+.author{
+  border-left: 2px solid #0b9444;
+  font-size: .8rem;
+  margin: 5px 0;
+  color: #a1a1a1 !important;
+}
+
+
 #headerWithMenu{
   background-color:#0b9444;
 }
-#headerWithLogo{
-  background-color:#ffffff;
-}
 .header-menu-text{
   margin-top: 35px;
-  font-size:.7em;
-  line-height:0;
+  font-size: .7rem;
+  line-height: 0;
 }
 .header-menu-text p:nth-child(2){
   font-weight:700;
@@ -33,7 +48,7 @@ body{
   margin-left: 5px;
 }
 .top-nav .nav-link{
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
 }
 .top-nav .nav-link:focus,
@@ -47,20 +62,58 @@ body{
   -webkit-transition-timing-function: ease-in-out;
   transition-timing-function: ease-in-out;
 }
+#headerWithLogo{
+  background-color:#ffffff;
+}
+#headerWithLogo nav.nav .nav-link{
+  color:black;
+  font-weight:700;
+  font-size:1.5rem;
+}
+.search-button input {
+  width: 65%;
+  padding:5px 0px;
+	font-family: 'Poppins', FontAwesome, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1rem;
+}
+.search-button input:focus,
+.search-button input:hover{
+  border: none;
+  outline: none;
+}
+.search-button input::placeholder{
+  color:black;
+  font-family: 'Poppins', FontAwesome, sans-serif;
+  font-size: 1rem;
+}
 
+#featured,
+#rightSideBar{
+  position: relative;
+  background-color: #ffffff;
+}
+#featured .card{
+  margin-top: 15px;
+}
+#featured .card-body,
+#rightSideBar .card-body{
+  padding: 0;
+}
 .list-group-item{
   padding: 5px;
 }
 .card{
   border-radius: 0;
 }
-.card-body{
-  padding-left: 10px;
-  padding-top: 5px;
-}
+
 .card-deck .card{
   border: none;
-  padding: 5px;
   position: relative;
   margin-top: 20px;
 }
@@ -78,28 +131,7 @@ body{
 }
 
 
-.search-button input {
-  width: 65%;
-  padding:5px 0px;
-	font-family: 'Poppins', FontAwesome, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration: inherit;
-  border: none;
-  outline: none;
-  color: black;
-  font-size: .8em;
-}
-.search-button input:focus,
-.search-button input:hover{
-  border: none;
-  outline: none;
-}
-.search-button input::placeholder{
-  color:black;
-  font-family: 'Poppins', FontAwesome, sans-serif;
-  font-size: 1em;
-}
+
 .subscribe-banner{
   background: url(../images/subscription.png) no-repeat center center ;
   -webkit-background-size: cover;
