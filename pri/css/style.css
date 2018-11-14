@@ -384,6 +384,9 @@ button:focus {
 
 
 /* PAST EVENT AND NEWS */
+#firstEventAndNews {
+  padding-top: 60px;
+}
 #firstEventAndNews .list-group-item:first-child {
   outline: none;
   border-top: 0;
