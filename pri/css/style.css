@@ -301,12 +301,13 @@ button:focus {
 }
 .quick-links{
   border: 1px solid #ddd;
-  padding: 13px 40px;
+  padding: 13px 39px;
   margin-top: -65px;
   position: absolute;
   z-index: 99999;
   background-color: #FFFFFF;
   box-shadow: 0.2em 0.1em 2em rgba(0, 0, 0, 0.2);
+  line-height: 1.8;
 }
 .quick-links h2{
   font-family: 'Dosis', sans-serif;
@@ -322,6 +323,13 @@ button:focus {
   font-family: 'Barlow', sans-serif;
   font-weight: 500;
   font-size: 20px;
+}
+.quick-links ul li:hover:before{
+  content: "\f105";
+  font-family: FontAwesome;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 2px;
 }
 .quick-links ul li a .fa-angle-right{
   color: #0F3B8F;
