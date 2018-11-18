@@ -368,7 +368,7 @@ button:focus {
 .card-profile .card-img-top {
   border-radius: 0;
 }
-.card-profile .card-img-profile {
+.card-profile .card-img-profile{
   margin-top: -60px;
   margin-bottom: 35px;
   border-radius: 50%;
@@ -434,4 +434,90 @@ button:focus {
 
 .slick-current {
   /* opacity: 1; */
+}
+
+
+
+
+/* SPEECH OF THE DAY */
+#speechOfTheDay{
+
+}
+.speech-background{
+  background-color: #0073BB;
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+
+.speech-section{
+  background-color: #FFFFFF;
+  min-height: 300px;
+  margin-top: -150px;
+  box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
+}
+.speech-img-profile{
+  margin-bottom: 35px;
+  border-radius: 50%;
+  width: 85px;
+  height: 85px;
+  transition: width 300ms 0s ease, height 300ms 0s ease;
+  border: 1px solid #ccc;
+}
+.speech-icon{
+  max-height: 170px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(50%);
+  -ms-transform: translateY(50%);
+  transform: translateY(50%);
+}
+.logo-section{
+  margin-top: 50px;
+}
+.logo-section img{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  display: unset;
+}
+.logo-section .slick-prev,
+.logo-section .slick-next{
+  display: none ;
+}
+
+
+/* FOOTER MENU */
+#footerMenu{
+  color: #FFFFFF;
+}
+.footer-menu{
+  background-color: #0F3B8F;
+}
+#footerMenu p{
+  margin-bottom: 0;
+}
+#footerMenu p:nth-child(4) {
+  width: 18rem;
+}
+.footer-menu-list ul{
+  list-style: none;
+}
+.footer-menu-list ul li a{
+  color: #FFFFFF;
+}
+.subscribe-form input[type=submit] {
+  padding: 8px 20px;
+  margin: 15px 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  background-color: #34CBF7;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.subscribe-form input[type=submit]:hover {
+  background-color: #FFFFFF;
+  color: #34CBF7;
+  transition: all .3s;
 }
