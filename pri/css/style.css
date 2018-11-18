@@ -492,6 +492,8 @@ button:focus {
 }
 .footer-menu{
   background-color: #0F3B8F;
+  padding-top: 54px;
+  padding-bottom: 35px;
 }
 #footerMenu p{
   margin-bottom: 0;
@@ -520,4 +522,12 @@ button:focus {
   background-color: #FFFFFF;
   color: #34CBF7;
   transition: all .3s;
+}
+#footerCopyright{
+  background-color: #0073BB;
+}
+#footerCopyright p{
+  color: #FFFFFF;
+  padding-top: 1.5rem;
+  font-weight: 600;
 }
