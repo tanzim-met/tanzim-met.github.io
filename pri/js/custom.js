@@ -73,9 +73,15 @@ $(document).ready(function(){
     ]
   });
 
-  // if ($(window).width() < 600) {
-  //   alert('Less than 960');
-  // } else {
-  //   alert('More than 960');
-  // }
+  if ($(window).width() < 600) {
+    $(".nav-item").css("width", $(window).width());
+  }
+
 });
+// $(window).on('resize', function() {
+//   var width = $(window).width();
+//   if(width<600){
+//     $('.navbar-collapse').removeClass('text-center');
+//     //alert('dd');
+//   }
+// });
