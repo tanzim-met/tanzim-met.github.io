@@ -76,7 +76,10 @@ $(document).ready(function(){
   if ($(window).width() < 600) {
     $(".nav-item").css("width", $(window).width());
   }
-
+  //$(".nav-item ul").toggleClass("show");
+  $(".nav-item").click(function(){
+    $(".nav-item ul").toggle();
+});
 });
 // $(window).on('resize', function() {
 //   var width = $(window).width();
