@@ -207,7 +207,11 @@ button:focus {
   background-color: #0073BB;
   overflow: hidden;
   max-height: 0px;
-  transition: 0.5s;
+  -webkit-transition: all 5s ease;  
+  -moz-transition: all 5s ease;
+  -o-transition: all 5s ease;
+  -ms-transition: all 5s ease;
+  transition: all 5s ease;
   z-index: 999999999;
   box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
 }
@@ -229,10 +233,11 @@ button:focus {
 #navBarMain ul ul li:focus,
 #navBarMain ul ul li a:focus{
   background-color: #0F3B8F;
-  -webkit-transition: all 150ms ease-in-out;
-  -moz-transition: all 150ms ease-in-out;
-  -ms-transition: all 150ms ease-in-out;
-  -o-transition: all 150ms ease-in-out;
+  -webkit-transition: all 2s ease;
+  -moz-transition: all 2s ease;
+  -o-transition: all 2s ease;
+  -ms-transition: all 2s ease;
+  transition: all 2s ease;
   color: #FFFFFF;
 }
 #mainNav .navbar-toggler-icon {
@@ -765,9 +770,19 @@ line-height: 50px; */
   .header-contact p{
     font-size: 12px;
     margin-bottom: 0;
+    text-align: center;
   }
   .social-icons {
-    float: left;
+    /* float: left;
+    position: relative;
+    left: 10%;
+    top: 0; */
+    text-align: center;
+    margin: 0 auto;
+  }
+  .social-icons li{
+    float: none;
+    display: inline-block;
   }
   #navLogo .pri-logo {
     margin: 0 auto;
