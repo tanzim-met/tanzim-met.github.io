@@ -78,7 +78,7 @@ $(document).ready(function(){
   }
   //$(".nav-item ul").toggleClass("show");
   $(".nav-item").click(function(){
-    $(".nav-item ul").slideToggle("slow");
+    $(".nav-item ul").toggle("slow");
     // $(".nav-item ul").css("position","static");
 });
 });
