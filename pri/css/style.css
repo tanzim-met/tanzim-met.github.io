@@ -145,7 +145,6 @@ button:focus {
 #mainNav #navBarMain .nav-item:focus,
 #mainNav #navBarMain .nav-item:visited,
 #mainNav #navBarMain .nav-item:hover{
-  text-decoration: underline;
   background-color: #0F3B8F;
   padding: 0 5px;
 }
