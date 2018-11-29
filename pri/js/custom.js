@@ -78,8 +78,8 @@ $(document).ready(function(){
   }
   //$(".nav-item ul").toggleClass("show");
   $(".nav-item").click(function(){
-    $(".nav-item ul").toggle(300);
-    $(".nav-item ul").css("position","static");
+    $(".nav-item ul").slideToggle("slow");
+    // $(".nav-item ul").css("position","static");
 });
 });
 // $(window).on('resize', function() {
