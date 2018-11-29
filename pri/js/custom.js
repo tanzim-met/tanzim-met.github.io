@@ -78,7 +78,7 @@ $(document).ready(function(){
   }
   //$(".nav-item ul").toggleClass("show");
   $(".nav-item").click(function(){
-    $(".nav-item ul").toggle();
+    $(".nav-item ul").toggle(300);
 });
 });
 // $(window).on('resize', function() {
