@@ -207,11 +207,11 @@ button:focus {
   background-color: #0073BB;
   overflow: hidden;
   max-height: 0px;
-  -webkit-transition: all 5s ease;  
-  -moz-transition: all 5s ease;
-  -o-transition: all 5s ease;
-  -ms-transition: all 5s ease;
-  transition: all 5s ease;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  transition: all .6s ease;
   z-index: 999999999;
   box-shadow: 1em 1em 2em rgba(0, 0, 0, 0.2);
 }
@@ -233,11 +233,11 @@ button:focus {
 #navBarMain ul ul li:focus,
 #navBarMain ul ul li a:focus{
   background-color: #0F3B8F;
-  -webkit-transition: all 2s ease;
-  -moz-transition: all 2s ease;
-  -o-transition: all 2s ease;
-  -ms-transition: all 2s ease;
-  transition: all 2s ease;
+  -webkit-transition: all .6s ease;
+  -moz-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  -ms-transition: all .6s ease;
+  transition: all .6s ease;
   color: #FFFFFF;
 }
 #mainNav .navbar-toggler-icon {
@@ -792,6 +792,23 @@ line-height: 50px; */
   }
   #navBarMain ul ul{
     background-color: #0F3B8F;
+  }
+  .topic {
+    font-size: 32px;
+  }
+  .welcome-text,
+  .welcome-message {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .quick-links{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+  }
+  .title {
+    font-size: 36px;
   }
 }
 
